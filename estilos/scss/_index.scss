@@ -47,9 +47,10 @@
 
         :hover {
           transform: scale(1.5);
-           position: absolute;
-           align-content: center;
-           transition: 0.7s;
+          transition: all 0.4s ease-out;
+          -webkit-transition: all 0.4s ease-out;
+          -moz-transition: all 0.4s ease-out;
+          -o-transition: all 0.4s ease-out;
            
         
         }
